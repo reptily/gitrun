@@ -1,0 +1,42 @@
+{
+    "name": "gitrun",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "webpack-dev-server",
+        "build": "webpack --mode production",
+        "watch": "./node_modules/nodemon/bin/nodemon.js -e js,vue,sass,css --watch './src/*' --ignore './build/*' ."
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "vue-loader": "^15.9.3",
+        "vue-server-renderer": "^2.6.12",
+        "vue-template-compiler": "^2.6.12",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "@babel/core": "^7.11.6",
+        "ant-design-vue": "^1.6.5",
+        "axios": "^0.20.0",
+        "babel-loader": "^8.1.0",
+        "body-parser": "^1.19.0",
+        "css-loader": "^4.3.0",
+        "express": "^4.17.1",
+        "fs": "0.0.1-security",
+        "javascript-obfuscator": "^2.6.3",
+        "mini-css-extract-plugin": "^1.0.0",
+        "nodemon": "^2.0.5",
+        "optimize-css-assets-webpack-plugin": "^5.0.4",
+        "path": "^0.12.7",
+        "style-loader": "^2.0.0",
+        "vue": "^2.6.12",
+        "vue-axios": "^3.1.1",
+        "vue-router": "^3.4.8",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-obfuscator": "^3.0.0"
+    }
+}
